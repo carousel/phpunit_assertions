@@ -1,0 +1,19 @@
+{
+    "name": "miro/temp",
+    "description": "composer training",
+    "authors": [
+        {
+            "name": "miro",
+            "email": "miroslav.trninic@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Tests\\": "app/Tests/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require-dev": {
+        "mockery/mockery": "*"
+    }
+}
